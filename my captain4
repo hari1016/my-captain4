@@ -1,0 +1,18 @@
+import java.lang.*;
+import java.util.*;
+public class JavaApplication2 {
+
+    public static void main(String[] args) {
+        int i;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the no of minutes");
+        i=sc.nextInt();
+        int d,y;
+        d=i/(60*24);
+        y=d/365;
+        d=d-y*365;
+        System.out.println("years="+y+" "+"days="+d);
+     
+    }
+    
+}
